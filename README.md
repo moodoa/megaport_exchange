@@ -23,5 +23,15 @@
 #### 5.資料庫會需要花一段時間建立，此時進入[AWS EC2 服務頁面](https://ap-northeast-1.console.aws.amazon.com/ec2/v2/)做規則設定。
 ![alt text](https://cdn-images-1.medium.com/max/1000/1*26Ru2XncF5hRGmhOeW_Wxw.png)
 #### 6.點選左方`網路和安全`中的`安全群組`。
+![alt text](https://cdn-images-1.medium.com/max/1000/1*1grkKgRhsYrIenVGI1ZxWg.png)
+#### 7.點選右下角`編輯傳入規則`。
+![alt text](https://cdn-images-1.medium.com/max/1000/1*Uh1MH7SIV5WFj65EoHXP-w.png)
+#### 8.先點選`刪除`後重新`新增規則`。類型選`所有流量`，來源選`隨處-IP4`並儲存。
+![alt text](https://cdn-images-1.medium.com/max/1000/1*xhgEGS7nXqw-1Zr3OP3Ztg.png)
+#### 9.下載[MySQL workbench](https://dev.mysql.com/downloads/file/?id=516912)。直接點選下方的`No thanks, just start my download.`可免註冊下載。
+![alt text](https://cdn-images-1.medium.com/max/1000/1*V2spM04ViTF2fX7osm67vg.png)
+#### 10.打開後點選`MySQL Connections`。在`Connection Name`輸入連線名字（隨意），`Hostname`輸入
+
+
 
 
