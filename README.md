@@ -51,3 +51,9 @@ pip install -r requirements.txt
 
 python main.py
 ```
+# 佈署到 Vercel
+#### 1.進入 [Vercel 官網](https://vercel.com/) 後登入帳號（可用 Github 登入）。
+#### 2.下載 Vercel CLI：`npm i -g vercel`。下載前請先確定 node.js 已更新到新版，可輸入 `node --version` 查看。
+#### 3.建立 vercel.json 檔，在 powershell 進入工作資料夾後輸入`vercel deploy`。
+![alt text](https://cdn-images-1.medium.com/max/1000/1*rdBIbQx-D0_vC_739VmTcg.png)
+#### 4.依序回答設定，如上圖範例。最後產出的`Production`即為服務網址。
