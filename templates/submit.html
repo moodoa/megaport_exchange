@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block div %}
+    <form action="/submit" method="POST">
+        <input type="text", name="name", placeholder="你ㄉ名字", class="bar">
+        <input type="text", name="ticket"", placeholder="單日票(日期)or雙日票", class="bar">
+        <input type="text", name="message", placeholder="聯絡方式。Line/ig/fb/...", class="bar">
+        <input type="text", name="delete_code"", placeholder="20字以內的一組數字，刪除時需要這一組。", class="bar">
+        <input type="submit", value="送出"", class="btn">
+    </form>
+    <a href="/", class="btn">回首頁la</a>
+{% endblock %}

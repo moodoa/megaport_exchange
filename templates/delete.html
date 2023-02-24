@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block div %}
+
+    <form action="/delete" method="POST">
+        <input type="text", name="name", placeholder="你ㄉ名字", class="bar">
+        <input type="text", name="delete_code", placeholder="你ㄉ刪除碼", class="bar">
+        <input type="submit", value="刪除！", class="btn">
+    </form>
+    <a href="/", class="btn">回首頁la</a>
+
+{% endblock %}

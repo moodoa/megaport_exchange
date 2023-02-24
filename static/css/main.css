@@ -1,0 +1,85 @@
+
+body{
+    background-color: #353331;
+    font-family: Arial Black, 微軟正黑體 !important;
+    color: #ee7a0e !important;
+    font-weight: bold;
+    text-decoration: none !important;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.center{
+    width: 30vw;
+    height: 30vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+.bar{
+    font-size: 2em;
+    color: #3B4219;
+    border: transparent;
+    margin-top: 2vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 40vw;
+    height: 5vh;
+    background-color: #dbceb4;
+    
+    
+}
+
+.btn{
+    background-color: #353331;
+    font-family: Arial Black	, 微軟正黑體;
+    font-weight: bold;
+    font-size: large;
+    text-decoration: none;
+    color: #ee7a0e;
+    border: transparent;
+    margin-top: 3vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 40vw;
+    height: 5vh;
+    font-size: 2em;
+}
+
+.keyword{
+    font-family: Arial Black, 微軟正黑體;
+    /* font-weight: bold; */
+    font-size: 5em;
+    margin-bottom: 2em;
+    text-decoration: underline #353331 !important;
+    color: #ee7a0e;
+    border: transparent;
+    margin-top: 2vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 20vw;
+    height: 5vh;
+}
+
+.infos{
+    width: 80vw;
+    height: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 2em;
+}

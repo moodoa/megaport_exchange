@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block div %}
+    <div  class="infos">
+        {% for info in infos %}
+            <tr>
+                <td>⚓</td>
+                <br>
+                <td>{{info.name}} / {{info.ticket}} / {{ info.message }}</td>
+                <br>
+                <br>
+            </tr>
+        {% endfor %}
+    </div>
+    <form action="/find" method="POST">
+        <input type="text", name="name", placeholder="你ㄉ名字", class="bar">
+        <input type="submit", value="開始找票", class="btn">
+    </form>
+    <a href="/", class="btn">回首頁la</a>
+
+{% endblock %}
